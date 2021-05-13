@@ -1,10 +1,16 @@
 import React from 'react';
+import styled from 'styled-components'
 
+const Nasaimg = styled.img`
+    object-fit: fill;
+    height: 70rem;
+    width: 100%;
+`
 
 export default function Dayphoto(props) {
     return (
         <div>
-            <img src={props.props.hdurl} alt={props.props.title} className='image'></img>
+            <Nasaimg src={props.props.hdurl} alt={props.props.title}></Nasaimg>
         </div>
     )
 }
