@@ -1,0 +1,12 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading {
+    font-size: 8rem;
+    color: black;
+    letter-spacing: 0.5rem;
+}
